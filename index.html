@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Helpdesk</title>
+</head>
+<body>
+    <div class="cabecalho_principal">
+        <h1>Central de serviços</h1>
+    </div>
+
+    <div class="cabecalho_secundario">
+        <ul>
+            <li>Principal</li>
+            <li>Base de conhecimento</li>
+            <li>Novo chamado</li>
+            <li>Lista de comando</li>
+        </ul>
+    </div>
+
+    <!-- ==============================Página Principal========================================== -->
+    <div class="principal_tudo">
+    <div class="num_chamado">
+        <h2>Chamado: 2711523</h2>
+    </div>
+
+    <div class="prod_mod">
+        <h2>Produto   Processo   Modulo</h2>
+    </div>
+
+    <div class="select1">
+        <label for="produto">Produto</label>
+        <select name="" id="produto">
+            <option selected>Manutenção de unidades</option>
+            <option selected>Holybooks</option>
+            <option selected>Calculadora</option>
+            <option selected>Motos</option>
+        </select>
+
+        <label for="processo">Processo</label>
+        <select name="" id="processo">
+            <option selected>Atendimento</option>
+            <option selected>Felipe Tadeu</option>
+            <option selected>Josue Marcos</option>
+            <option selected>Luisa fonseca</option>
+        </select>
+
+        <label for="modulo">Módulo</label>
+        <select name="" id="modulo">
+            <option selected>Catalogo</option>
+            <option selected>Vendas</option>
+            <option selected>Interface</option>
+            <option selected>Disponibilidade</option>
+        </select>
+    </div>
+
+    <div class="caminho">
+        <h2>Caminho Natureza Severidade Versão</h2>
+    </div>
+    <div class="select2">
+        <label for="caminho">Caminho: </label>
+        <input type="text" placeholder="Manutenção de equipamentos" id="caminho">
+        <br><br>
+        <label for="natureza">Natureza: </label>
+        <select class="select_2" name="" id="natureza">
+            <option selected>Evolutiva</option>
+            <option selected>Preventiva</option>
+            <option selected>Adaptativa</option>
+            <option selected>Corretiva</option>
+        </select>
+        <br><br>
+        <label for="vencimento">vencimento: </label>
+        <input class="vencimento" type="text" placeholder="Manutenção de equipamentos" id="vencimento">
+</div>
+        <div class="caminho">
+            <h2>Título/Descrição</h2>
+        </div>
+        <div class="select2">
+        <label for="titulo">Título: </label>
+        <input class="vencimento" type="text" placeholder="Erro na tela de login" id="titulo">
+        <br><br>
+        <label for="descricao">Descrição: </label>
+        <br>
+        <textarea rows="10" cols="190"></textarea>
+    </div>
+
+    <div class="final_botao">
+        <button class="confirmar">Confirmar</button>
+        <button class="cancelar">Cancelar</button>
+    </div>
+
+</div>
+    
+</body>
+</html>
